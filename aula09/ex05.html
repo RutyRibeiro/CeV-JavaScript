@@ -20,8 +20,8 @@
 
     <script>
         // testando get ElementsByTagName
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
+        // var corpo = window.document.body
+        // var p1 = window.document.getElementsByTagName('p')[1]
         /*
         window.document.write(p1.innerHTML)
         p1.style.color = 'yellow';
@@ -32,9 +32,13 @@
 
 
         // testando get ElementsById
-        var d = window.document.getElementById('msg')
-        d.style.background = 'yellow'
-        // d.innerText='Aguardando...'
+        // var d = window.document.getElementById('msg')
+        // d.style.background = 'yellow'
+        // // d.innerText='Aguardando...'
+
+        // testando query selector, serve para alterações rápidas 
+        var d = document.querySelector('div#msg')
+        d.style.background = 'pink'
 
 
     </script>
