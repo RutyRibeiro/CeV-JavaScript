@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Valores</title>
+    <style>
+        *{
+            background: rgb(255, 122, 184);
+        }
+        div{
+            margin: 20px;
+            text-align: center;
+            font: normal 15pt Arial;
+        }
+        span{
+            color: red;
+        }
+        .titulo{
+            height: 100px;
+        }
+        h1{
+            color: rgb(102, 26, 133);
+        }
+        #txtn1,
+        #txtn2,
+        #resultado
+        {
+            color: black;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: pink;
+            text-align: center;
+
+        }
+        #botao{
+            border-radius: 10px;
+            background: rgb(255, 136, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Somando Valores</h1>
+        <p>Digite dois numeros para somar</p>
+    </div>
+    <div class="numeros" >
+        <input type="tel" name="txtn1" id=txtn1>
+        <span>+</span>
+        <input type="tel" name="txtn2" id=txtn2>
+        <input type="button" id='botao' value="=" onclick="somar()">
+        <input type="text" readonly= 'true' id="resultado">
+    </div>
+        
+    <script>
+
+        function somar(){
+            var num1 = document.getElementById('txtn1')
+            var num2 = document.getElementById('txtn2')
+            var resul=document.getElementById('resultado')
+            soma= Number(num1.value)+Number(num2.value)
+            resul.value=(soma)
+
+            
+        }
+    </script>
+</body>
+</html>
