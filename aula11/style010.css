@@ -1,0 +1,32 @@
+*{
+    background: rgb(99, 90, 228);
+    font-family: Arial;
+    outline: 0;
+    color: white;
+}
+div{
+    text-align: center;
+}
+#title{
+    height: 110px;
+    padding: 10px;
+}
+#title h1{
+    color: rgb(228, 210, 49);
+}
+button{
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    height: 20px;
+    border-radius: 10px;
+    border: double black 2px;
+    background: rgb(228, 210, 49);
+}
+input{
+    background: rgb(121, 121, 241);
+    width: 80px;
+    border-radius: 10px;
+    border: solid black 1px;
+    text-align: center;
+}
