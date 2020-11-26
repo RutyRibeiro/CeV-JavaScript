@@ -1,0 +1,34 @@
+*{
+    background: rgb(255, 122, 184);
+}
+div{
+    margin: 20px;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+span{
+    color: red;
+}
+.titulo{
+    height: 100px;
+}
+h1{
+    color: rgb(102, 26, 133);
+}
+#txtn1,
+#txtn2,
+#resultado
+{
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: pink;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+#botao{
+    border-radius: 100px;
+    background: rgb(255, 136, 0);
+    font: normal 15pt Arial;
+}
