@@ -1,8 +1,9 @@
 body{
     background: rgb(187, 109, 218);
+    font: normal 15px Arial;
 }
 header{
-
+    text-align: center;
 }
 section{
     background: white;
@@ -10,7 +11,7 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    color: white;
+    color: black;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.295);
 }
