@@ -20,3 +20,8 @@ footer{
     text-align: center;
 
 }
+section img{
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+}
